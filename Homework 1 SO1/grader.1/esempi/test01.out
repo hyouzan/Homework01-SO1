@@ -1,0 +1,169 @@
+{"max_procs": 10, "max_sim": 43, "procs": [[0, 1], [0, 2], [0, 4], [0, 6], [0, 8], [11, 8], [11, 6], [11, 4], [11, 2], [11, 1]], "quantum": 3}
+Added [1] with pid: 1
+Added [2] with pid: 2
+Added [4] with pid: 3
+Added [6] with pid: 4
+Added [8] with pid: 5
+After 3.0 units: [{"code_io": [4], "pid": 3}, {"code_io": [6], "pid": 4}, {"code_io": [8], "pid": 5}] [] {"code_io": [0], "pid": 2}
+After 6.0 units: [{"code_io": [6], "pid": 4}, {"code_io": [8], "pid": 5}] [] {"code_io": [1], "pid": 3}
+After 9.0 units: [{"code_io": [8], "pid": 5}, {"code_io": [1], "pid": 3}] [] {"code_io": [3], "pid": 4}
+After 11.0 units: [{"code_io": [1], "pid": 3}, {"code_io": [3], "pid": 4}] [] {"code_io": [6], "pid": 5}
+Added [8] with pid: 6
+Added [6] with pid: 7
+Added [4] with pid: 8
+Added [2] with pid: 9
+Added [1] with pid: 10
+After 12.0 units: [{"code_io": [1], "pid": 3}, {"code_io": [3], "pid": 4}, {"code_io": [8], "pid": 6}, {"code_io": [6], "pid": 7}, {"code_io": [4], "pid": 8}, {"code_io": [2], "pid": 9}, {"code_io": [1], "pid": 10}] [] {"code_io": [5], "pid": 5}
+After 15.0 units: [{"code_io": [8], "pid": 6}, {"code_io": [6], "pid": 7}, {"code_io": [4], "pid": 8}, {"code_io": [2], "pid": 9}, {"code_io": [1], "pid": 10}, {"code_io": [5], "pid": 5}] [] {"code_io": [1], "pid": 4}
+After 18.0 units: [{"code_io": [6], "pid": 7}, {"code_io": [4], "pid": 8}, {"code_io": [2], "pid": 9}, {"code_io": [1], "pid": 10}, {"code_io": [5], "pid": 5}] [] {"code_io": [6], "pid": 6}
+After 21.0 units: [{"code_io": [4], "pid": 8}, {"code_io": [2], "pid": 9}, {"code_io": [1], "pid": 10}, {"code_io": [5], "pid": 5}, {"code_io": [5], "pid": 6}] [] {"code_io": [4], "pid": 7}
+After 24.0 units: [{"code_io": [2], "pid": 9}, {"code_io": [1], "pid": 10}, {"code_io": [5], "pid": 5}, {"code_io": [5], "pid": 6}, {"code_io": [3], "pid": 7}] [] {"code_io": [2], "pid": 8}
+After 27.0 units: [{"code_io": [1], "pid": 10}, {"code_io": [5], "pid": 5}, {"code_io": [5], "pid": 6}, {"code_io": [3], "pid": 7}, {"code_io": [1], "pid": 8}] [] {"code_io": [0], "pid": 9}
+After 30.0 units: [{"code_io": [5], "pid": 6}, {"code_io": [3], "pid": 7}, {"code_io": [1], "pid": 8}] [] {"code_io": [3], "pid": 5}
+After 33.0 units: [{"code_io": [3], "pid": 7}, {"code_io": [1], "pid": 8}, {"code_io": [2], "pid": 5}] [] {"code_io": [3], "pid": 6}
+After 36.0 units: [{"code_io": [1], "pid": 8}, {"code_io": [2], "pid": 5}, {"code_io": [2], "pid": 6}] [] {"code_io": [1], "pid": 7}
+After 39.0 units: [{"code_io": [2], "pid": 6}] [] {"code_io": [1], "pid": 5}
+After 42.0 units: [] [] {"code_io": [0], "pid": 6}
+After 43.0 units: [] [] null
+
+
+{"max_procs": 10, "max_sim": 776, "procs": [[0, 250], [50, 170], [130, 75], [190, 100], [210, 130], [350, 50]], "quantum": 100}
+Added [250] with pid: 1
+After 50.0 units: [] [] {"code_io": [200], "pid": 1}
+Added [170] with pid: 2
+After 100.0 units: [{"code_io": [170], "pid": 2}] [] {"code_io": [150], "pid": 1}
+After 130.0 units: [{"code_io": [150], "pid": 1}] [] {"code_io": [140], "pid": 2}
+Added [75] with pid: 3
+After 190.0 units: [{"code_io": [150], "pid": 1}, {"code_io": [75], "pid": 3}] [] {"code_io": [80], "pid": 2}
+Added [100] with pid: 4
+After 200.0 units: [{"code_io": [150], "pid": 1}, {"code_io": [75], "pid": 3}, {"code_io": [100], "pid": 4}] [] {"code_io": [70], "pid": 2}
+After 210.0 units: [{"code_io": [75], "pid": 3}, {"code_io": [100], "pid": 4}, {"code_io": [70], "pid": 2}] [] {"code_io": [140], "pid": 1}
+Added [130] with pid: 5
+After 300.0 units: [{"code_io": [75], "pid": 3}, {"code_io": [100], "pid": 4}, {"code_io": [70], "pid": 2}, {"code_io": [130], "pid": 5}] [] {"code_io": [50], "pid": 1}
+After 350.0 units: [{"code_io": [100], "pid": 4}, {"code_io": [70], "pid": 2}, {"code_io": [130], "pid": 5}, {"code_io": [50], "pid": 1}] [] {"code_io": [25], "pid": 3}
+Added [50] with pid: 6
+After 400.0 units: [{"code_io": [70], "pid": 2}, {"code_io": [130], "pid": 5}, {"code_io": [50], "pid": 1}, {"code_io": [50], "pid": 6}] [] {"code_io": [75], "pid": 4}
+After 500.0 units: [{"code_io": [130], "pid": 5}, {"code_io": [50], "pid": 1}, {"code_io": [50], "pid": 6}] [] {"code_io": [45], "pid": 2}
+After 600.0 units: [{"code_io": [50], "pid": 1}, {"code_io": [50], "pid": 6}] [] {"code_io": [75], "pid": 5}
+After 700.0 units: [{"code_io": [30], "pid": 5}] [] {"code_io": [45], "pid": 6}
+After 776.0 units: [] [] null
+
+
+{"max_procs": 10, "max_sim": 21, "procs": [[0, 3], [2, 6], [4, 4], [6, 5], [8, 2]], "quantum": 1}
+Added [3] with pid: 1
+After 1.0 units: [] [] {"code_io": [2], "pid": 1}
+After 2.0 units: [] [] {"code_io": [1], "pid": 1}
+Added [6] with pid: 2
+After 3.0 units: [{"code_io": [1], "pid": 1}] [] {"code_io": [5], "pid": 2}
+After 4.0 units: [{"code_io": [5], "pid": 2}] [] {"code_io": [0], "pid": 1}
+Added [4] with pid: 3
+After 5.0 units: [{"code_io": [4], "pid": 3}] [] {"code_io": [4], "pid": 2}
+After 6.0 units: [{"code_io": [4], "pid": 2}] [] {"code_io": [3], "pid": 3}
+Added [5] with pid: 4
+After 7.0 units: [{"code_io": [5], "pid": 4}, {"code_io": [3], "pid": 3}] [] {"code_io": [3], "pid": 2}
+After 8.0 units: [{"code_io": [3], "pid": 3}, {"code_io": [3], "pid": 2}] [] {"code_io": [4], "pid": 4}
+Added [2] with pid: 5
+After 9.0 units: [{"code_io": [3], "pid": 2}, {"code_io": [2], "pid": 5}, {"code_io": [4], "pid": 4}] [] {"code_io": [2], "pid": 3}
+After 10.0 units: [{"code_io": [2], "pid": 5}, {"code_io": [4], "pid": 4}, {"code_io": [2], "pid": 3}] [] {"code_io": [2], "pid": 2}
+After 11.0 units: [{"code_io": [4], "pid": 4}, {"code_io": [2], "pid": 3}, {"code_io": [2], "pid": 2}] [] {"code_io": [1], "pid": 5}
+After 12.0 units: [{"code_io": [2], "pid": 3}, {"code_io": [2], "pid": 2}, {"code_io": [1], "pid": 5}] [] {"code_io": [3], "pid": 4}
+After 13.0 units: [{"code_io": [2], "pid": 2}, {"code_io": [1], "pid": 5}, {"code_io": [3], "pid": 4}] [] {"code_io": [1], "pid": 3}
+After 14.0 units: [{"code_io": [1], "pid": 5}, {"code_io": [3], "pid": 4}, {"code_io": [1], "pid": 3}] [] {"code_io": [1], "pid": 2}
+After 15.0 units: [{"code_io": [3], "pid": 4}, {"code_io": [1], "pid": 3}, {"code_io": [1], "pid": 2}] [] {"code_io": [0], "pid": 5}
+After 16.0 units: [{"code_io": [1], "pid": 3}, {"code_io": [1], "pid": 2}] [] {"code_io": [2], "pid": 4}
+After 17.0 units: [{"code_io": [1], "pid": 2}, {"code_io": [2], "pid": 4}] [] {"code_io": [0], "pid": 3}
+After 18.0 units: [{"code_io": [2], "pid": 4}] [] {"code_io": [0], "pid": 2}
+After 19.0 units: [] [] {"code_io": [1], "pid": 4}
+After 20.0 units: [] [] {"code_io": [0], "pid": 4}
+After 21.0 units: [] [] null
+
+
+{"max_procs": 10, "max_sim": 21, "procs": [[0, 3], [2, 6], [4, 4], [6, 5], [8, 2]], "quantum": 4}
+Added [3] with pid: 1
+After 2.0 units: [] [] {"code_io": [1], "pid": 1}
+Added [6] with pid: 2
+After 4.0 units: [] [] {"code_io": [5], "pid": 2}
+Added [4] with pid: 3
+After 6.0 units: [{"code_io": [4], "pid": 3}] [] {"code_io": [3], "pid": 2}
+Added [5] with pid: 4
+After 8.0 units: [{"code_io": [5], "pid": 4}, {"code_io": [2], "pid": 2}] [] {"code_io": [3], "pid": 3}
+Added [2] with pid: 5
+After 12.0 units: [{"code_io": [2], "pid": 2}, {"code_io": [2], "pid": 5}] [] {"code_io": [4], "pid": 4}
+After 16.0 units: [{"code_io": [2], "pid": 5}, {"code_io": [1], "pid": 4}] [] {"code_io": [1], "pid": 2}
+After 20.0 units: [] [] {"code_io": [0], "pid": 4}
+After 21.0 units: [] [] null
+
+
+{"max_procs": 5, "max_sim": 64, "procs": [[0, 3, 2, 3, 1, 1], [2, 6, 1, 2, 1, 5], [4, 4, 4, 4, 4, 1], [6, 5, 1, 2], [8, 2, 3, 2, 4, 6, 1, 2, 1, 2, 5, 2], [8, 2, 3, 4]], "quantum": 1}
+Added [3, 2, 3, 1, 1] with pid: 1
+After 1.0 units: [] [] {"code_io": [2, 2, 3, 1, 1], "pid": 1}
+After 2.0 units: [] [] {"code_io": [1, 2, 3, 1, 1], "pid": 1}
+Added [6, 1, 2, 1, 5] with pid: 2
+After 3.0 units: [{"code_io": [1, 2, 3, 1, 1], "pid": 1}] [] {"code_io": [5, 1, 2, 1, 5], "pid": 2}
+After 4.0 units: [{"code_io": [5, 1, 2, 1, 5], "pid": 2}] [] {"code_io": [0, 2, 3, 1, 1], "pid": 1}
+Added [4, 4, 4, 4, 1] with pid: 3
+After 5.0 units: [{"code_io": [4, 4, 4, 4, 1], "pid": 3}, {"code_io": [0, 2, 3, 1, 1], "pid": 1}] [] {"code_io": [4, 1, 2, 1, 5], "pid": 2}
+After 6.0 units: [{"code_io": [0, 2, 3, 1, 1], "pid": 1}, {"code_io": [4, 1, 2, 1, 5], "pid": 2}] [] {"code_io": [3, 4, 4, 4, 1], "pid": 3}
+Added [5, 1, 2] with pid: 4
+After 7.0 units: [{"code_io": [5, 1, 2], "pid": 4}, {"code_io": [3, 4, 4, 4, 1], "pid": 3}] [{"code_io": [1, 3, 1, 1], "pid": 1}] {"code_io": [3, 1, 2, 1, 5], "pid": 2}
+After 8.0 units: [{"code_io": [3, 4, 4, 4, 1], "pid": 3}, {"code_io": [3, 1, 2, 1, 5], "pid": 2}] [{"code_io": [0, 3, 1, 1], "pid": 1}] {"code_io": [4, 1, 2], "pid": 4}
+Added [2, 3, 2, 4, 6, 1, 2, 1, 2, 5, 2] with pid: 5
+Added [2, 3, 4] with pid: None
+After 9.0 units: [{"code_io": [3, 1, 2, 1, 5], "pid": 2}, {"code_io": [2, 3, 2, 4, 6, 1, 2, 1, 2, 5, 2], "pid": 5}, {"code_io": [4, 1, 2], "pid": 4}, {"code_io": [3, 1, 1], "pid": 1}] [] {"code_io": [2, 4, 4, 4, 1], "pid": 3}
+After 10.0 units: [{"code_io": [2, 3, 2, 4, 6, 1, 2, 1, 2, 5, 2], "pid": 5}, {"code_io": [4, 1, 2], "pid": 4}, {"code_io": [3, 1, 1], "pid": 1}, {"code_io": [2, 4, 4, 4, 1], "pid": 3}] [] {"code_io": [2, 1, 2, 1, 5], "pid": 2}
+After 11.0 units: [{"code_io": [4, 1, 2], "pid": 4}, {"code_io": [3, 1, 1], "pid": 1}, {"code_io": [2, 4, 4, 4, 1], "pid": 3}, {"code_io": [2, 1, 2, 1, 5], "pid": 2}] [] {"code_io": [1, 3, 2, 4, 6, 1, 2, 1, 2, 5, 2], "pid": 5}
+After 12.0 units: [{"code_io": [3, 1, 1], "pid": 1}, {"code_io": [2, 4, 4, 4, 1], "pid": 3}, {"code_io": [2, 1, 2, 1, 5], "pid": 2}, {"code_io": [1, 3, 2, 4, 6, 1, 2, 1, 2, 5, 2], "pid": 5}] [] {"code_io": [3, 1, 2], "pid": 4}
+After 13.0 units: [{"code_io": [2, 4, 4, 4, 1], "pid": 3}, {"code_io": [2, 1, 2, 1, 5], "pid": 2}, {"code_io": [1, 3, 2, 4, 6, 1, 2, 1, 2, 5, 2], "pid": 5}, {"code_io": [3, 1, 2], "pid": 4}] [] {"code_io": [2, 1, 1], "pid": 1}
+After 14.0 units: [{"code_io": [2, 1, 2, 1, 5], "pid": 2}, {"code_io": [1, 3, 2, 4, 6, 1, 2, 1, 2, 5, 2], "pid": 5}, {"code_io": [3, 1, 2], "pid": 4}, {"code_io": [2, 1, 1], "pid": 1}] [] {"code_io": [1, 4, 4, 4, 1], "pid": 3}
+After 15.0 units: [{"code_io": [1, 3, 2, 4, 6, 1, 2, 1, 2, 5, 2], "pid": 5}, {"code_io": [3, 1, 2], "pid": 4}, {"code_io": [2, 1, 1], "pid": 1}, {"code_io": [1, 4, 4, 4, 1], "pid": 3}] [] {"code_io": [1, 1, 2, 1, 5], "pid": 2}
+After 16.0 units: [{"code_io": [3, 1, 2], "pid": 4}, {"code_io": [2, 1, 1], "pid": 1}, {"code_io": [1, 4, 4, 4, 1], "pid": 3}, {"code_io": [1, 1, 2, 1, 5], "pid": 2}] [] {"code_io": [0, 3, 2, 4, 6, 1, 2, 1, 2, 5, 2], "pid": 5}
+After 17.0 units: [{"code_io": [2, 1, 1], "pid": 1}, {"code_io": [1, 4, 4, 4, 1], "pid": 3}, {"code_io": [1, 1, 2, 1, 5], "pid": 2}, {"code_io": [0, 3, 2, 4, 6, 1, 2, 1, 2, 5, 2], "pid": 5}] [] {"code_io": [2, 1, 2], "pid": 4}
+After 18.0 units: [{"code_io": [1, 4, 4, 4, 1], "pid": 3}, {"code_io": [1, 1, 2, 1, 5], "pid": 2}, {"code_io": [0, 3, 2, 4, 6, 1, 2, 1, 2, 5, 2], "pid": 5}, {"code_io": [2, 1, 2], "pid": 4}] [] {"code_io": [1, 1, 1], "pid": 1}
+After 19.0 units: [{"code_io": [1, 1, 2, 1, 5], "pid": 2}, {"code_io": [0, 3, 2, 4, 6, 1, 2, 1, 2, 5, 2], "pid": 5}, {"code_io": [2, 1, 2], "pid": 4}, {"code_io": [1, 1, 1], "pid": 1}] [] {"code_io": [0, 4, 4, 4, 1], "pid": 3}
+After 20.0 units: [{"code_io": [0, 3, 2, 4, 6, 1, 2, 1, 2, 5, 2], "pid": 5}, {"code_io": [2, 1, 2], "pid": 4}, {"code_io": [1, 1, 1], "pid": 1}, {"code_io": [0, 4, 4, 4, 1], "pid": 3}] [] {"code_io": [0, 1, 2, 1, 5], "pid": 2}
+After 21.0 units: [{"code_io": [1, 1, 1], "pid": 1}, {"code_io": [0, 4, 4, 4, 1], "pid": 3}, {"code_io": [0, 1, 2, 1, 5], "pid": 2}] [{"code_io": [2, 2, 4, 6, 1, 2, 1, 2, 5, 2], "pid": 5}] {"code_io": [1, 1, 2], "pid": 4}
+After 22.0 units: [{"code_io": [0, 4, 4, 4, 1], "pid": 3}, {"code_io": [0, 1, 2, 1, 5], "pid": 2}, {"code_io": [1, 1, 2], "pid": 4}] [{"code_io": [1, 2, 4, 6, 1, 2, 1, 2, 5, 2], "pid": 5}] {"code_io": [0, 1, 1], "pid": 1}
+After 23.0 units: [{"code_io": [0, 1, 1], "pid": 1}] [{"code_io": [0, 2, 4, 6, 1, 2, 1, 2, 5, 2], "pid": 5}, {"code_io": [3, 4, 4, 1], "pid": 3}, {"code_io": [0, 2, 1, 5], "pid": 2}] {"code_io": [0, 1, 2], "pid": 4}
+After 24.0 units: [{"code_io": [2, 1, 5], "pid": 2}] [{"code_io": [2, 4, 4, 1], "pid": 3}, {"code_io": [0, 1], "pid": 1}, {"code_io": [0, 2], "pid": 4}] {"code_io": [1, 4, 6, 1, 2, 1, 2, 5, 2], "pid": 5}
+After 25.0 units: [{"code_io": [1, 4, 6, 1, 2, 1, 2, 5, 2], "pid": 5}, {"code_io": [1], "pid": 1}, {"code_io": [2], "pid": 4}] [{"code_io": [1, 4, 4, 1], "pid": 3}] {"code_io": [1, 1, 5], "pid": 2}
+After 26.0 units: [{"code_io": [1], "pid": 1}, {"code_io": [2], "pid": 4}, {"code_io": [1, 1, 5], "pid": 2}] [{"code_io": [0, 4, 4, 1], "pid": 3}] {"code_io": [0, 4, 6, 1, 2, 1, 2, 5, 2], "pid": 5}
+After 27.0 units: [{"code_io": [2], "pid": 4}, {"code_io": [1, 1, 5], "pid": 2}, {"code_io": [0, 4, 6, 1, 2, 1, 2, 5, 2], "pid": 5}, {"code_io": [4, 4, 1], "pid": 3}] [] {"code_io": [0], "pid": 1}
+After 28.0 units: [{"code_io": [1, 1, 5], "pid": 2}, {"code_io": [0, 4, 6, 1, 2, 1, 2, 5, 2], "pid": 5}, {"code_io": [4, 4, 1], "pid": 3}] [] {"code_io": [1], "pid": 4}
+After 29.0 units: [{"code_io": [0, 4, 6, 1, 2, 1, 2, 5, 2], "pid": 5}, {"code_io": [4, 4, 1], "pid": 3}, {"code_io": [1], "pid": 4}] [] {"code_io": [0, 1, 5], "pid": 2}
+After 30.0 units: [{"code_io": [1], "pid": 4}, {"code_io": [0, 1, 5], "pid": 2}] [{"code_io": [3, 6, 1, 2, 1, 2, 5, 2], "pid": 5}] {"code_io": [3, 4, 1], "pid": 3}
+After 31.0 units: [{"code_io": [0, 1, 5], "pid": 2}, {"code_io": [3, 4, 1], "pid": 3}] [{"code_io": [2, 6, 1, 2, 1, 2, 5, 2], "pid": 5}] {"code_io": [0], "pid": 4}
+After 32.0 units: [] [{"code_io": [1, 6, 1, 2, 1, 2, 5, 2], "pid": 5}, {"code_io": [0, 5], "pid": 2}] {"code_io": [2, 4, 1], "pid": 3}
+After 33.0 units: [{"code_io": [5], "pid": 2}] [{"code_io": [0, 6, 1, 2, 1, 2, 5, 2], "pid": 5}] {"code_io": [1, 4, 1], "pid": 3}
+After 34.0 units: [{"code_io": [1, 4, 1], "pid": 3}, {"code_io": [6, 1, 2, 1, 2, 5, 2], "pid": 5}] [] {"code_io": [4], "pid": 2}
+After 35.0 units: [{"code_io": [6, 1, 2, 1, 2, 5, 2], "pid": 5}, {"code_io": [4], "pid": 2}] [] {"code_io": [0, 4, 1], "pid": 3}
+After 36.0 units: [{"code_io": [4], "pid": 2}, {"code_io": [0, 4, 1], "pid": 3}] [] {"code_io": [5, 1, 2, 1, 2, 5, 2], "pid": 5}
+After 37.0 units: [{"code_io": [0, 4, 1], "pid": 3}, {"code_io": [5, 1, 2, 1, 2, 5, 2], "pid": 5}] [] {"code_io": [3], "pid": 2}
+After 38.0 units: [{"code_io": [3], "pid": 2}] [{"code_io": [3, 1], "pid": 3}] {"code_io": [4, 1, 2, 1, 2, 5, 2], "pid": 5}
+After 39.0 units: [{"code_io": [4, 1, 2, 1, 2, 5, 2], "pid": 5}] [{"code_io": [2, 1], "pid": 3}] {"code_io": [2], "pid": 2}
+After 40.0 units: [{"code_io": [2], "pid": 2}] [{"code_io": [1, 1], "pid": 3}] {"code_io": [3, 1, 2, 1, 2, 5, 2], "pid": 5}
+After 41.0 units: [{"code_io": [3, 1, 2, 1, 2, 5, 2], "pid": 5}] [{"code_io": [0, 1], "pid": 3}] {"code_io": [1], "pid": 2}
+After 42.0 units: [{"code_io": [1], "pid": 2}, {"code_io": [1], "pid": 3}] [] {"code_io": [2, 1, 2, 1, 2, 5, 2], "pid": 5}
+After 43.0 units: [{"code_io": [1], "pid": 3}, {"code_io": [2, 1, 2, 1, 2, 5, 2], "pid": 5}] [] {"code_io": [0], "pid": 2}
+After 44.0 units: [{"code_io": [2, 1, 2, 1, 2, 5, 2], "pid": 5}] [] {"code_io": [0], "pid": 3}
+After 45.0 units: [] [] {"code_io": [1, 1, 2, 1, 2, 5, 2], "pid": 5}
+After 46.0 units: [] [] {"code_io": [0, 1, 2, 1, 2, 5, 2], "pid": 5}
+After 47.0 units: [] [{"code_io": [0, 2, 1, 2, 5, 2], "pid": 5}] null
+After 48.0 units: [] [] {"code_io": [1, 1, 2, 5, 2], "pid": 5}
+After 49.0 units: [] [] {"code_io": [0, 1, 2, 5, 2], "pid": 5}
+After 50.0 units: [] [{"code_io": [0, 2, 5, 2], "pid": 5}] null
+After 51.0 units: [] [] {"code_io": [1, 5, 2], "pid": 5}
+After 52.0 units: [] [] {"code_io": [0, 5, 2], "pid": 5}
+After 53.0 units: [] [{"code_io": [4, 2], "pid": 5}] null
+After 54.0 units: [] [{"code_io": [3, 2], "pid": 5}] null
+After 55.0 units: [] [{"code_io": [2, 2], "pid": 5}] null
+After 56.0 units: [] [{"code_io": [1, 2], "pid": 5}] null
+After 57.0 units: [] [{"code_io": [0, 2], "pid": 5}] null
+After 58.0 units: [] [] {"code_io": [1], "pid": 5}
+After 59.0 units: [] [] {"code_io": [0], "pid": 5}
+After 60.0 units: [] [] null
+After 61.0 units: [] [] null
+After 62.0 units: [] [] null
+After 63.0 units: [] [] null
+After 64.0 units: [] [] null
+
+
